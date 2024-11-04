@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #153448;
+    color: #eeeae3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #153448;
+    font-family: 'Livvic', sans-serif; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 200px;
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.navbar-brand span {
+    font-size: 1.2rem;
+    color: #eeeae3;
+}
+
+.navbar-links { 
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li { 
+    margin-left: 2rem;
+}
+
+.navbar-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.navbar-links a:hover {
+    background-color: #1a5b73;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-family: 'Alice', serif; 
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+    font-family: 'Inria Serif', serif; 
+}
+
+.livvic-semibold {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
