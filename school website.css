@@ -89,4 +89,10 @@ body {
 
 .button:hover {
   background-color: #0f222e;
+  padding: 40px 50px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
